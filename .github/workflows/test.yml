@@ -2,7 +2,7 @@ name: TDD Tests with Github Actions
 on: 
   push: 
     branches: [main]
-  pull-request:
+  pull_request:
     branches: [main]
 jobs:
   test:
